@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Tilt+Prism&display=swap');
+
+/* font-family: 'Tilt Neon', cursive;
+font-family: 'Tilt Prism', cursive; */
+
+*{
+    font-family: 'Tilt Neon', cursive; 
+}
+
+:root{
+    --bg-navbar: #82e2ef ;
+    --textnavbar: #c833a0 ;
+    --waduh: #4dd163 ;
+    --anu: #ffee31 ;
+    --hoper: #8b63db ;
+    --textjudul: #0014FF;
+    --hehe: red;
+    --hehe1: blue;
+    --siji: #0080ff;
+    --bg-navbar: #82e2ef ;
+    --hoper: #8b63db ;
+
+
+}
+/* navbar */
+.navbar{
+    background: var(--bg-navbar);
+}
+.navbar .navbar-brand{
+    color: var(--textnavbar);
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar .navbar-brand span{
+    color: rgb(255, 213, 0);
+}
+a.btn-secon{
+    padding: 12px 24px;
+    background: var(--textnavbar);
+    border-radius: 8px;
+    border: 1px solid var(--waduh);
+}
+a.btn-secon:hover{
+    background: var(--waduh);
+    color: #fff;
+    border: 1px solid var(--waduh);
+    transition: 1s;
+}
+a.btn-first{
+    padding: 12px 24px;
+    background: var(--bg-navbar);
+    border-radius: 8px;
+    border: 1px solid var(--textnavbar);
+}
+a.btn-first:hover{
+    background: var(--textnavbar);
+    color: #fff;
+    transition: 1s;
+}
+.navbar .nav-item i{
+    font-size: 30px ;
+}
+/* body{
+    min-height: 5000px;
+}  */
+.navbar .input-group{
+    width: 50%;
+}
+
+/* atr responsif */
+
+
+@media(max-width:960px){
+    .navbar .input-group{
+       width: 100% ; 
+    }
+}
+/* menu waper */
+.menu-wrapper{
+    margin-top: 120px;
+}
+.menu-wrapper a{
+    margin: 0 20px;
+}
+/* carosel */
+.header{
+    margin-top: 180px;
+}
+/* .header .carousel-inner, .carousel-item img{
+    width: 400px;
+} */
+
+@media(max-width:768px){
+    .header{
+        margin-top: 100px;
+    }
+    .jumbotron .anunya img{
+        width: 80px;
+    }
+    
+}
+
+
+
+
+/* rubah tulisan title */
+@media(max-width:576px){
+    .populer .title,.price{ 
+        font-size: 10px;
+    }
+}
+
+
+
+@media(max-width:576px){
+    .populer .btn-cart{
+        padding: 5px 5px;
+    }
+}
+
+@media(max-width:576px){
+    .populer .btn-cart i{
+        font-size: 13px;
+    }}
+
+
+.container .jumbotron{
+    margin-top: 50px;
+    padding: 30px;
+    /* background-color: rgb(31, 31, 31); */
+    background-image: url(bg.jpg); 
+    color: aqua;
+    min-height: 50px;
+    
+}
+.footer{
+    color: antiquewhite;
+    background-color: rgb(22, 22, 22); 
+    padding: 15px; 
+    text-align: center;
+    min-height: 10px;
+}
+/* section{
+    min-height: 3000px;
+} */
+.logo{
+    width: 60px;
+}
+.container .jumbotron img{
+    text-align: center;
+    height: 400px;
+    width: 400px;}
+
+.bg{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    min-height: 800px;
+    
+}
+.bg .container{
+    text-align: center;
+    padding-top: 230px;
+    justify-content: center;
+    
+}
+.container .row,.txt{
+
+    color: #fff;
+}
+.container .row,.txt:hover{
+
+    color: #aff50c;
+    transition: 1s;
+    
+}
+.container .row, .col:hover{
+    color: #4dd163;
+    transition: 1s;
+    
+}
+.container .row, .col-4 .radius{
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 300px;
+    margin: 5px;
+}
+/* .footer{
+    font-size: 20px;
+    
+}
+.footer .right{
+    float: right ;
+
+}
+.footer .left{
+    float: left ;
+
+}
+/* .footer .row, .size-icon{
+    font-size: 30px;
+} */
+/* .footer .row,.ajg{
+    float: right;
+}
+.footer .row, .eeq{
+    padding: 100px;
+}  */
+
+
+.footer{
+
+    padding: 30px;
+    background-color: rgb(33, 32, 32);
+    /* background-image: url(bg.jpg);  */
+    color: aqua;
+    min-height: 50px;
+    
+}
+
+.header .testimoni {
+    margin-top: 100px;
+}
+
+.header .testimoni .card {
+    position: relative;
+    border: 2px solid var(--bg-navbar);
+    border-radius: 10px;
+}
+
+.header .testimoni .card img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .testimoni .card i {
+    position: absolute;
+    top: -40px; 
+    right: 20px;
+    font-size: 70px;
+    color: var(--textjudul);
+}
+
